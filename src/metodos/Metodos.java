@@ -1,3 +1,5 @@
+package metodos;
+
 import javax.swing.*;
 
 public class Metodos {
