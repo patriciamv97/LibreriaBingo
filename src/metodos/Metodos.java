@@ -52,5 +52,16 @@ public class Metodos {
             lista.add(array[i]);
         }
     }
+    public static boolean comprobarMatriz0(int[][] matriz) {
+        boolean vacia = false;
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j] == 0) {
+                    vacia = true;
+                }
+            }
+        }
+        return vacia;
+    }
 
 }
