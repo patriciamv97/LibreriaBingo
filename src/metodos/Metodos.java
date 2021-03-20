@@ -45,12 +45,13 @@ public class Metodos {
         }
     }
 
-    public static void arrayListInteger(int[]array){
+    public static ArrayList<Integer> arrayListInteger(int[]array){
 
         ArrayList<Integer>lista=new ArrayList<>();
         for (int i =0;i<array.length;i++){
             lista.add(array[i]);
         }
+        return lista;
     }
     public static boolean comprobarMatriz0(int[][] matriz) {
         boolean vacia = false;
